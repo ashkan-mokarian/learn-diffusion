@@ -1,12 +1,18 @@
-Notes about generative AI, e.g. Diffusion, LLM, ...
+Learning to diffuse visuals.
 
 # TOC + Summary
 
-* [Diffusion](#diffusion):
+* [Questions](#questions)
 
-# Diffusion
+* [Basics](#basics): [description]
 
-## Questions
+    * [Diffuser @ Hugging Face](#pretrained-huggingface-diffuser-models): Easy way to use pretrained diffusion models
+
+* [mini Project](#mini-project)
+
+* [Resources](#resources)
+
+# Questions
 
 *What is the idea that creates such good results?*
 
@@ -16,13 +22,16 @@ Notes about generative AI, e.g. Diffusion, LLM, ...
 
 *How important is the choice of scheduler and how to choose?*
 
-## Notes
+# Basics
 
-## mini Project
+### pretrained HuggingFace diffuser models
+diffuser library, provides api for lots of pre-trained models. can change scheduler as well.
+
+# mini Project
 
 Build a comic image generation app, that has the context of the story, has fixed depiction for main characters, and generates images based on sections, e.g. use dragonball, or shahname.
 
-## Resources
+# Resources
 [Diffuser](https://huggingface.co/docs/diffusers/index#diffusers)@Hugging Face. 
 
 
